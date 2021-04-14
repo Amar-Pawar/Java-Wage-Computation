@@ -19,6 +19,7 @@ public class EmpWage1 {
         switch (empcheck) {
         case 1:
                 status = "employee is present";
+		//calculating daily wages
                 wages = (wage_Per_Hr * work_Hrs);
                 break;
         case 2:
@@ -30,7 +31,7 @@ public class EmpWage1 {
                 System.out.println(status);
                 break;
         }
-	//caculating daily and monthly wages
+	//caculating monthly wages
 	monthly_Wages = (month_Days * wages);
         System.out.println(status + " and daily wages are " + wages);
         System.out.println("monthly wages of employee " + monthly_Wages);
