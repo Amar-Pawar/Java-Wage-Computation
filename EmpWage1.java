@@ -47,15 +47,15 @@ class companyWages {
   	}
 }
 public class EmpWage1 {
-public static void main(String[] args) {
+	public static void main(String[] args) {
+		//creating objects and calling methods
+        	companyWages DMart=new companyWages("DMart", 20, 20, 100 );
+        	DMart.computeEmpWage();
+        	System.out.println(DMart);
 
-        companyWages DMart=new companyWages("DMart", 20, 20, 100 );
-        DMart.computeEmpWage();
-        System.out.println(DMart);
-
-        companyWages JioMart=new companyWages("JioMart", 30, 25, 80 );
-        JioMart.computeEmpWage();
-        System.out.println(JioMart);
- }
+        	companyWages JioMart=new companyWages("JioMart", 30, 25, 80 );
+        	JioMart.computeEmpWage();
+        	System.out.println(JioMart);
+ 	}
 }
 
